@@ -1,0 +1,258 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>个人简历-20240903 | QuillVot</title><meta name="author" content="QuillVot"><meta name="copyright" content="QuillVot"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="职业技能 冷熊&#x2F;男&#x2F;1990  本科&#x2F;北极大学计算机系  工作年限：3年  微博：@Easy （如果没有技术相关内容，也可以不放）  技术博客：http:&#x2F;&#x2F;old.ftqq.com ( 使用GitHub Host的Big较高  )  Github：http:&#x2F;&#x2F;github.com&#x2F;easychen ( 有原创repo的Github帐号会极大的提升你的个人品牌  )">
+<meta property="og:type" content="website">
+<meta property="og:title" content="个人简历-20240903">
+<meta property="og:url" content="https://quillvot.github.io/en/about/index-20240903.html">
+<meta property="og:site_name" content="QuillVot">
+<meta property="og:description" content="职业技能 冷熊&#x2F;男&#x2F;1990  本科&#x2F;北极大学计算机系  工作年限：3年  微博：@Easy （如果没有技术相关内容，也可以不放）  技术博客：http:&#x2F;&#x2F;old.ftqq.com ( 使用GitHub Host的Big较高  )  Github：http:&#x2F;&#x2F;github.com&#x2F;easychen ( 有原创repo的Github帐号会极大的提升你的个人品牌  )">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://quillvot.github.io/en/img/butterfly-icon.png">
+<meta property="article:published_time" content="2023-08-13T16:14:55.000Z">
+<meta property="article:modified_time" content="2025-01-18T10:55:40.862Z">
+<meta property="article:author" content="QuillVot">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://quillvot.github.io/en/img/butterfly-icon.png"><link rel="shortcut icon" href="/en/img/favicon.png"><link rel="canonical" href="https://quillvot.github.io/en/about/index-20240903.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/en/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
+          const mediaQueryLight = window.matchMedia('(prefers-color-scheme: light)')
+          
+          if (theme === undefined) {
+            if (mediaQueryLight.matches) activateLightMode()
+            else if (mediaQueryDark.matches) activateDarkMode()
+            else {
+              const hour = new Date().getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            mediaQueryDark.addEventListener('change', () => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else {
+            theme === 'light' ? activateLightMode() : activateDarkMode()
+          }
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/en/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '个人简历-20240903',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><link rel="stylesheet" href="/self/css/css.css"><meta name="generator" content="Hexo 7.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">Loading...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load', preloader.endLoading)
+
+  if (false) {
+    btf.addGlobalFn('pjaxSend', preloader.initLoading, 'preloader_init')
+    btf.addGlobalFn('pjaxComplete', preloader.endLoading, 'preloader_end')
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/en/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/en/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/en/archives/"><div class="headline">Articles</div><div class="length-num">1</div></a><a href="/en/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/en/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/en/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/en/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/en/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/en/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/en/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/en/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/en/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/en/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-language"></i><span> Language</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/en/zh"><i class="fa-fw fa-solid fa-language multiple-language-switch"></i><span> 中文</span></a></li><li><a class="site-page child" href="/en/ja"><i class="fa-fw fa-solid fa-language multiple-language-switch"></i><span> にほんご</span></a></li><li><a class="site-page child" href="/en/en"><i class="fa-fw fa-solid fa-language multiple-language-switch"></i><span> English</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/en/"><span class="site-name">QuillVot</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/en/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/en/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/en/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/en/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/en/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/en/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/en/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/en/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-language"></i><span> Language</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/en/zh"><i class="fa-fw fa-solid fa-language multiple-language-switch"></i><span> 中文</span></a></li><li><a class="site-page child" href="/en/ja"><i class="fa-fw fa-solid fa-language multiple-language-switch"></i><span> にほんご</span></a></li><li><a class="site-page child" href="/en/en"><i class="fa-fw fa-solid fa-language multiple-language-switch"></i><span> English</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">个人简历-20240903</h1></div></header><main class="layout" id="content-inner"><div id="page"><div class="container" id="article-container"><h1 id="职业技能"><a href="#职业技能" class="headerlink" title="职业技能"></a>职业技能</h1><ul>
+<li><p>冷熊&#x2F;男&#x2F;1990</p>
+</li>
+<li><p>本科&#x2F;北极大学计算机系</p>
+</li>
+<li><p>工作年限：3年</p>
+</li>
+<li><p>微博：<a target="_blank" rel="noopener" href="http://weibo.com/easy">@Easy</a> （如果没有技术相关内容，也可以不放）</p>
+</li>
+<li><p>技术博客：<a target="_blank" rel="noopener" href="http://old.ftqq.com/">http://old.ftqq.com</a> ( 使用GitHub Host的Big较高  )</p>
+</li>
+<li><p>Github：<a target="_blank" rel="noopener" href="http://github.com/easychen">http://github.com/easychen</a> ( 有原创repo的Github帐号会极大的提升你的个人品牌  )</p>
+</li>
+<li><p>期望职位：PHP高级程序员，应用架构师</p>
+</li>
+<li><p>期望薪资：税前月薪15k~20k，特别喜欢的公司可例外</p>
+</li>
+<li><p>期望城市：北京</p>
+</li>
+</ul>
+<h1 id="个人信息"><a href="#个人信息" class="headerlink" title="个人信息"></a>个人信息</h1><ul>
+<li><p>冷熊&#x2F;男&#x2F;1990</p>
+</li>
+<li><p>本科&#x2F;北极大学计算机系</p>
+</li>
+<li><p>工作年限：3年</p>
+</li>
+<li><p>微博：<a target="_blank" rel="noopener" href="http://weibo.com/easy">@Easy</a> （如果没有技术相关内容，也可以不放）</p>
+</li>
+<li><p>技术博客：<a target="_blank" rel="noopener" href="http://old.ftqq.com/">http://old.ftqq.com</a> ( 使用GitHub Host的Big较高  )</p>
+</li>
+<li><p>Github：<a target="_blank" rel="noopener" href="http://github.com/easychen">http://github.com/easychen</a> ( 有原创repo的Github帐号会极大的提升你的个人品牌  )</p>
+</li>
+<li><p>期望职位：PHP高级程序员，应用架构师</p>
+</li>
+<li><p>期望薪资：税前月薪15k~20k，特别喜欢的公司可例外</p>
+</li>
+<li><p>期望城市：北京</p>
+</li>
+</ul>
+<h1 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h1><p>（工作经历按逆序排列，最新的在最前边，按公司做一级分组，公司内按二级分组）</p>
+<h2 id="ABC公司-（-2012年9月-2014年9月-）"><a href="#ABC公司-（-2012年9月-2014年9月-）" class="headerlink" title="ABC公司 （ 2012年9月 ~ 2014年9月 ）"></a>ABC公司 （ 2012年9月 ~ 2014年9月 ）</h2><h3 id="DEF项目"><a href="#DEF项目" class="headerlink" title="DEF项目"></a>DEF项目</h3><p>我在此项目负责了哪些工作，分别在哪些地方做得出色&#x2F;和别人不一样&#x2F;成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+<h3 id="GHI项目"><a href="#GHI项目" class="headerlink" title="GHI项目"></a>GHI项目</h3><p>我在此项目负责了哪些工作，分别在哪些地方做得出色&#x2F;和别人不一样&#x2F;成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+<h3 id="其他项目"><a href="#其他项目" class="headerlink" title="其他项目"></a>其他项目</h3><p>（每个公司写2~3个核心项目就好了，如果你有非常大量的项目，那么按分类进行合并，每一类选一个典型写出来。其他的一笔带过即可。）</p>
+<h2 id="JKL公司-（-2010年3月-2012年8月-）"><a href="#JKL公司-（-2010年3月-2012年8月-）" class="headerlink" title="JKL公司 （ 2010年3月 ~ 2012年8月 ）"></a>JKL公司 （ 2010年3月 ~ 2012年8月 ）</h2><h3 id="MNO项目"><a href="#MNO项目" class="headerlink" title="MNO项目"></a>MNO项目</h3><p>我在此项目负责了哪些工作，分别在哪些地方做得出色&#x2F;和别人不一样&#x2F;成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+<h3 id="PQR项目"><a href="#PQR项目" class="headerlink" title="PQR项目"></a>PQR项目</h3><p>我在此项目负责了哪些工作，分别在哪些地方做得出色&#x2F;和别人不一样&#x2F;成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+<h3 id="其他项目-1"><a href="#其他项目-1" class="headerlink" title="其他项目"></a>其他项目</h3><p>（每个公司写2~3个核心项目就好了，如果你有非常大量的项目，那么按分类进行合并，每一类选一个典型写出来。其他的一笔带过即可。）</p>
+<h1 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h1><hr>
+<p>（HR会打印你的简历，用于在面试的时候联系，所以联系方式放到最上边会比较方便）</p>
+<ul>
+<li>手机：135…. （如果是外地手机，可注明。如经常关机，要写上最优联系时间）</li>
+<li>Email：<a href="mailto:&#x67;&#x6f;&#x6f;&#100;&#x6d;&#97;&#110;&#64;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#x6d;">goodman@gmail.com</a> （虽然我觉得QQ邮箱无所谓，不过有些技术人员比较反感，建议用G，非要用的话，不要用数字邮箱名）</li>
+<li>QQ&#x2F;微信号：6…（提供一个通过网络可以联系到你的方式）</li>
+</ul>
+</div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/en/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/en/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">QuillVot</div><div class="author-info-description"></div><div class="site-data"><a href="/en/archives/"><div class="headline">Articles</div><div class="length-num">1</div></a><a href="/en/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/en/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/QuillVot"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/en/hello-world.html" title="Hello World English">Hello World English</a><time datetime="2025-01-18T10:55:40.862Z" title="Created 2025-01-18 10:55:40">2025-01-18</time></div></div></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>Archives</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/en/archives/2025/01/">
+            <span class="card-archive-list-date">
+              January 2025
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Website Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article Count :</div><div class="item-count">1</div></div><div class="webinfo-item"><div class="item-name">Unique Visitors :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Page Views :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-01-18T10:56:04.062Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By QuillVot</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/en/js/utils.js"></script><script src="/en/js/main.js"></script><div class="js-pjax"></div><script defer src="/self/js/init.js"></script><script defer src="/self/js/switch-language.js"></script><script async data-pjax src="//cdn.jsdelivr.net/gh/sukkaw/busuanzi@2.3/bsz.pure.mini.js"></script></div></body></html>
