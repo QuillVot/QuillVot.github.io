@@ -1,0 +1,22 @@
+.layout {
+    width: 100%;
+    max-width: 95%;
+}
+
+.layout > div:first-child {
+    width: 100%;
+}
+
+.layout.hide-aside {
+    max-width: 95%;
+}
+/*css设置滚动条透明*/
+::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+    color: transparent;
+}
+/*隐藏副标题*/
+#site-info {
+    display: none;
+}
